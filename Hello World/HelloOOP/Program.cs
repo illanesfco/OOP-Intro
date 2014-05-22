@@ -1,4 +1,11 @@
-﻿using System;
+﻿/* TODO: Add comments to the following code, identifying what parts are:
+ *  -Fields
+ *  -Properties
+ *  -Constructors
+ *  -Methods
+ * 
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +15,7 @@ namespace HelloOOP
 {
     class Program
     {
+        //Method
         static void Main(string[] args)
         {
             // Declare two variables (object references)
@@ -27,6 +35,7 @@ namespace HelloOOP
             Speak(klingonWarrior, "Worf");
         }
 
+        //Method
         static void Speak(Greeter someone, string name)
         {
             Console.WriteLine(someone.SayGreeting(name));

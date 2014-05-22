@@ -10,8 +10,10 @@ namespace HelloOOP
     {
         #region Fields and Properties
         // traditional Field + Property combination
+        //Field
         private string _GreetingMessage;
-        public string GreetingMessage
+        //Property
+        public string GreetingMessage                                                                                                                                                                                  
         {
             get
             {
@@ -28,6 +30,7 @@ namespace HelloOOP
         #endregion
 
         #region Constructors
+        //Constructor
         public Greeter(string greeting, string farewell)
         {
             GreetingMessage = greeting;
@@ -36,21 +39,25 @@ namespace HelloOOP
         #endregion
 
         #region Methods
+        //Method
         public string SayGreeting(string name)
         {
             return name + ", " + GreetingMessage;
         }
 
+        //Method
         public string SayGreeting()
         {
             return GreetingMessage;
         }
 
+        //Method
         public string SayGoodbye(string name)
         {
             return name + " - " + FarewellMessage;
         }
 
+        //Method
         public string SayGoodbye()
         {
             return FarewellMessage;
